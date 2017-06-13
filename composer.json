@@ -2,7 +2,7 @@
 	"name": "cloud/passcode",
 	"type": "library",
 	"description": "passcode maker",
-	"license", "proprietary",
+	"license": "proprietary",
 	"authors": [
 		{
 			"name": "cloud",
