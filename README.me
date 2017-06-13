@@ -1,0 +1,13 @@
+Passcode maker can easily create a validation image for you.
+
+Installation
+
+Install the latest version with
+
+$ composer require cloud/passcode
+Basic Usage
+
+<?php
+
+$passCode=new \PassCode\PassCode($imgWidth=150, $imgHeight=55, $r=151, $g=236, $b=243);
+$passCode->generate();
