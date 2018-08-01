@@ -1,5 +1,5 @@
 <?php
-namespace PassCode;
+namespace Cloud\PassCode;
 
 /**
  * Description of PassCode

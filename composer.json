@@ -1,18 +1,23 @@
 {
-	"name": "cloud/passcode",
-	"type": "library",
-	"description": "passcode maker",
-	"license": "proprietary",
-	"authors": [
-		{
-			"name": "cloud",
-			"email": "cloud@be-yond.com.tw",
-			"homepage": "http://www.be-yond.com.tw"
-		}
-	],
-	"autoload": {
-		"psr-4": {
-			"PassCode\\": "src"
-		}
-	}
+    "name": "cloud/passcode",
+    "type": "library",
+    "description": "passcode maker",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Cloud",
+            "email": "cloud@be-yond.com.tw",
+            "homepage": "http://www.be-yond.com.tw"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cloud\\PassCode\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cloud\\PassCode\\Test\\": "tests"
+        }
+    }
 }
